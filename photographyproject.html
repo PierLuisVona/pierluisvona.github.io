@@ -1,0 +1,47 @@
+---
+layout: default
+title: Educational tech
+description:
+featured_image: /images/social.jpg
+---
+
+<section class="intro">
+
+	<div class="wrap">
+		<p>As a self-taught <b>photographer</b> & <b>video maker</b>, I definitely know that I know nothing.<br>
+I work with enthusiasm and continuing research to do my best in every environment, with a special attention to people and their stories. Here's a selection of reportage I've work in:</p>
+
+	</div>
+
+</section>
+
+<section class="portfolio">
+
+	<div class="content-wrap portfolio-wrap">
+
+		{% for project in site.photographyprojects reversed %}
+
+		<div class="portfolio-item">
+
+			<a class="portfolio-item__link" href="{{ project.url }}">
+
+				<div class="portfolio-item__image">
+					<img src="{{ project.featured_image  }}" alt="{{ project.title }}">
+				</div>
+
+				<div class="portfolio-item__content">
+					<div class="portfolio-item__info">
+						<h2 class="portfolio-item__title">{{ project.title }}</h2>
+						<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
+					</div>
+				</div>
+
+			</a>
+
+		</div>
+
+		{% endfor %}
+
+	</div>
+
+</section>
