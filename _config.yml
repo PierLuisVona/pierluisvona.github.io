@@ -1,0 +1,63 @@
+site: Pier Luis Vona Portfolio
+
+collections:
+  photographyprojects:
+    output: true
+    permalink: /project/:slug
+  eduprojects:
+    output: true
+    permalink: /project/:slug
+  digitalprojects:
+    output: true
+    permalink: /project/:slug
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "photographyprojects"
+    values:
+      layout: "project"
+  -
+    scope:
+      path: ""
+      type: "eduprojects"
+    values:
+      layout: "project"
+  -
+    scope:
+      path: ""
+      type: "digitalprojects"
+    values:
+      layout: "project"
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+gems: [jekyll-paginate]
+
+paginate: 8
+paginate_path: "/blog/page:num/"
+
+gallery_types:
+  carousel: Carousel
+  grid: Grid
+grid_columns:
+  two: Two
+  three: Three
+  four: Four
