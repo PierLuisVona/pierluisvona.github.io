@@ -8,9 +8,9 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'edu'
+    - title: 'educational'
       url: '/eduproject'
-    - title: 'digital'
+    - title: 'fabrication'
       url: '/digitalproject'
     - title: 'photography'
       url: 'https://pierluisvona.exposure.co'
