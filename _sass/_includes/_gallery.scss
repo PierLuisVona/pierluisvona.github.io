@@ -7,11 +7,14 @@
 .gallery {
 	visibility: hidden;
 	position: relative;
-	max-width: 90%;
 	margin: 20px auto;
 
 	@include mq(tabletp) {
 		margin: 30px auto;
+	}
+
+	@include mq(tabletl) {
+
 	}
 
 	@include mq(laptop) {
@@ -44,7 +47,7 @@
 	.gallery__wrap {
 
 	}
-
+	
 	.gallery__item {
 
 	}
@@ -79,7 +82,7 @@
 			outline: none;
 
 			&.active {
-				background: $text_dark_color;
+				background: $accent-color;
 			}
 		}
 	}
@@ -95,7 +98,7 @@
 		margin-left: -$grid-spacing/2;
 		margin-right: -$grid-spacing/2;
 	}
-
+	
 	.gallery__item {
 		float: left;
 		width: 50%;
@@ -177,3 +180,6 @@
 		}
 	}
 }
+
+
+

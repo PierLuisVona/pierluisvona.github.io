@@ -4,78 +4,72 @@
 
 // - - - - - - - - - - - - - - - - - -
 
-.intro {
-
-	h1 {
-
-		@include mq(tabletp) {
-			white-space: pre-line;
-		}
-	}
-
-	p {
-
-	}
-}
-
-.content-wrap {
+.single {
+	margin-top: 0;
+	padding: 40px 0;
 
 	@include mq(tabletp) {
-		max-width: 90%;
-		margin: 0 auto;
+		padding: 60px 0;
 	}
-}
 
-.single {
+	@include mq(laptop) {
+		padding: 80px 0;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	.subtitle {
+		margin-top: 5px;
+		text-align: center;
+		color: $text-light-color;
+	}
 
 	h1, h2, h3, h4, h5, h6, p, ul, ol {
 		margin-left: auto;
 		margin-right: auto;
-		padding-left: 30px;
-		padding-right: 30px;
-		max-width: 500px;
 
 		@include mq(tabletp) {
-			padding-left: 0;
-			padding-right: 0;
-			max-width: 70%;
 		}
 
 		@include mq(tabletl) {
-			max-width: 65%;
+			max-width: 75%;
 		}
 
 		@include mq(laptop) {
-			max-width: 60%;
+			max-width: 70%;
+		}
+
+		@include mq(desktop) {
+			max-width: 65%;
 		}
 	}
 
 	hr {
-		margin: 30px auto;
-		width: calc(100vw - 60px);
-		max-width: 440px;
+		margin: 20px auto;
 
 		@include mq(tabletp) {
 			margin-top: 40px;
 			margin-bottom: 40px;
-			margin-left: auto;
-			margin-right: auto;
 			width: auto;
-			max-width: 70%;
 		}
 
 		@include mq(tabletl) {
-			max-width: 65%;
+			max-width: 75%;
 		}
 
 		@include mq(laptop) {
-			max-width: 60%;
+			max-width: 70%;
+		}
+
+		@include mq(desktop) {
+			max-width: 65%;
 		}
 	}
 
 	blockquote,
 	figure {
-		max-width: 90%;
 		margin: 20px auto;
 
 		@include mq(tabletp) {
@@ -93,8 +87,8 @@
 	}
 
 	p a {
-		font-weight: $regular-weight;
-		border-bottom: 1px solid $accent-color;
+		font-weight: $bold-weight;
+		border-bottom: 2px solid $accent-color;
 	}
 
 	p .button {
@@ -105,20 +99,22 @@
 	table {
 		margin: 20px auto;
 		width: 100%;
-		max-width: 90%;
 
 		@include mq(tabletp) {
 			margin: 30px auto;
-			max-width: 70%;
 		}
 
 		@include mq(tabletl) {
-			max-width: 65%;
+			max-width: 75%;
 		}
 
 		@include mq(laptop) {
 			margin: 40px auto;
-			max-width: 60%;
+			max-width: 70%;
+		}
+
+		@include mq(desktop) {
+			max-width: 65%;
 		}
 	}
 
@@ -177,10 +173,9 @@
 
 			@include mq(laptop) {
 				padding: 20px;
-				font-size: $p-large;
 			}
 		}
-
+		
 		tr {
 
 			&:nth-child(2n) {
@@ -193,7 +188,6 @@
 .image-wrap,
 .video-wrap {
 	position: relative;
-	max-width: 90%;
 	margin: 20px auto;
 
 	@include mq(tabletp) {

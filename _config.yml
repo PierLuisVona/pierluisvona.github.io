@@ -1,13 +1,13 @@
-site: Pier Luis Vona Portfolio
+site: Pierluigi Vona
 
 collections:
-  photographyprojects:
+  pages:
     output: true
-    permalink: /project/:slug
-  eduprojects:
+    permalink: /:name
+  posts:
     output: true
-    permalink: /project/:slug
-  digitalprojects:
+    permalink: /blog/:slug
+  projects:
     output: true
     permalink: /project/:slug
 
@@ -20,19 +20,19 @@ defaults:
   -
     scope:
       path: ""
-      type: "photographyprojects"
+      type: "pages"
     values:
-      layout: "project"
+      layout: "page"
   -
     scope:
       path: ""
-      type: "eduprojects"
+      type: "posts"
     values:
-      layout: "project"
+      layout: "post"
   -
     scope:
       path: ""
-      type: "digitalprojects"
+      type: "projects"
     values:
       layout: "project"
 
@@ -49,15 +49,5 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-gems: [jekyll-paginate]
-
-paginate: 8
+paginate: 6
 paginate_path: "/blog/page:num/"
-
-gallery_types:
-  carousel: Carousel
-  grid: Grid
-grid_columns:
-  two: Two
-  three: Three
-  four: Four
