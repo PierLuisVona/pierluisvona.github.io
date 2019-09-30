@@ -8,12 +8,8 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'educational'
-      url: '/eduproject'
-    - title: 'fabrication'
-      url: '/digitalproject'
-    - title: 'photography'
-      url: 'https://pierluisvona.exposure.co'
+    - title: ''
+      url: ''
 
 footer_settings:
   logo_image: /images/logo.png

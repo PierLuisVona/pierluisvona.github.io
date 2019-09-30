@@ -1,25 +1,10 @@
 <footer class="footer">
 
-	<div class="wrap">
+	{% include socials.html %}
 
-		{% if site.data.settings.footer_settings.logo_image %}
-		<a href="/" class="footer__logo">
-			<img src="{{ site.data.settings.footer_settings.logo_image }}" class="footer__logo__img">
-		</a>
-					<p class="footer__text">{{ site.data.settings.footer_settings.footer_tagline }}</p>
-		{% else %}
-		<a href="/" class="footer__title">
-			{{ site.data.settings.basic_settings.site_title }}
-		</a>
-		{% endif %}
-
-
-		<div class="footer__copyright">
-			<span>plv.{{ 'now' | date: "%Y" }} </span>
-		</div>
-
-		{% include socials.html %}
-
+	<div class="footer__copyright">
+		<span>© {{ 'now' | date: "%Y" }} {{ site.data.settings.basic_settings.site_title }}</span>
+		<a href="https://jekyllthemes.io" target="_blank">Jekyll Themes</a>
 	</div>
 
 </footer>
