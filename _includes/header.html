@@ -1,34 +1,15 @@
-<header class="header">
+<header>
+    <div class="header-content">
+        <div class="header-content-inner">
 
-	<div class="wrap">
-
-		{% if site.data.settings.header_settings.avatar_image %}
-		<a href="/" class="header__avatar">
-			<img src="{{ site.data.settings.header_settings.avatar_image }}" class="header__avatar__img">
-		</a>
-		{% endif %}
-
-		{% if site.data.settings.header_settings.logo_image %}
-		<a href="/" class="header__logo">
-			<img src="{{ site.data.settings.header_settings.logo_image }}" class="header__logo__img">
-		</a>
-		{% else %}
-		<a href="/" class="header__title">
-			{{ site.data.settings.basic_settings.site_title }}
-		</a>
-		{% endif %}
-
-		<p class="header__tagline">{{ site.data.settings.basic_settings.site_tagline }}</p>
-
-		<div class="menu">
-			<ul class="menu__list">
-				{% for item in site.data.settings.menu_settings.menu_items %}
-				<li class="menu__list__item">
-					<a href="{{ item.url }}" class="menu__list__item__link">{{ item.title }}</a>
-				</li>
-				{% endfor %}
-			</ul>
-		</div>
-	</div>
-
+          <img src="img/logo.svg" name=”logo”></img>
+            <h1>PIERLUIGI VONA</h1>
+            <br>
+            <p>designer &
+              <a href="https://pierluisvona.exposure.co" target="_blank">photographer</a><br>
+               <a href="https://pierluisvona.github.io/plv_website/PierluigiVona-CVResume-2018.pdf" target="_blank">here its my CV</a>
+               and <a href="https://www.linkedin.com/in/pierluigi-vona-30415812b/" target="_blank">here my linkedin</a><br><br>
+               <a href="mailto:poste@pierluisvona.it?Subject=importantissimo" target="_top">posta@pierluisvona.it</a></p>
+        </div>
+    </div>
 </header>
