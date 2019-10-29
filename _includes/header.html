@@ -1,17 +1,32 @@
-<header>
-    <div class="header-content">
-      <div class="header-content-inner">
+<header class="header">
 
+	<div class="wrap">
 
-          <img src="img/logo.svg" name=”logo”></img>
-            <h1>PIERLUIGI VONA</h1>
-            <br>
-            <p> designer &
-            <a href="https://pierluisvona.exposure.co" target="_blank">photographer</a><br>
-            <a href="https://pierluisvona.github.io/plv_website/PierluigiVona-CVResume-2018.pdf" target="_blank">here its my CV</a>
-            and <a href="https://www.linkedin.com/in/pierluigi-vona-30415812b/" target="_blank">here my linkedin</a></p>
+		{% if site.data.settings.header_settings.logo_image %}
+		<a href="/" class="header__logo">
+			<img src="{{ site.data.settings.header_settings.logo_image }}" class="header__logo__img">
+		</a>
+		{% else %}
+		<a href="/" class="header__title">
+			{{ site.data.settings.basic_settings.site_title }}
+		</a>
+		{% endif %}
 
-        </div>
-      </div>
+		<div class="menu">
+			<div class="menu__toggle js-menu-toggle">
+				<div class="menu__toggle__icon"><span></span></div>
+			</div>
+			<div class="menu__wrap">
+				<ul class="menu__list">
+					{% for item in site.data.settings.menu_settings.menu_items %}
+					<li class="menu__list__item">
+						<a href="{{ item.url }}" class="menu__list__item__link">{{ item.title }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+
+	</div>
 
 </header>
