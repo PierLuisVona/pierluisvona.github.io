@@ -8,13 +8,13 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'projects'
+    - title: 'shootings'
       url: '/'
     - title: 'about me'
       url: '/about'
 
 footer_settings:
-  footer_tagline: pierluisvona.it - photography portfolio
+  footer_tagline: pierluisvona.it // photography portfolio
   logo_image: /images/logo.png
   logo_width: 60
 

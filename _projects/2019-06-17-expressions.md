@@ -1,7 +1,7 @@
 ---
 title: 'Expressions of CRA'
 subtitle: 'who is behind the brand'
-date: 2019-04-08 00:00:00
+date: 2019-06-17 00:00:00
 description:
 featured_image: '/images/grid/square-05.jpg'
 ---
