@@ -4,7 +4,7 @@ subtitle:
 description:
 featured_image:
 ---
-<!--<img align="left" width="180" height="180" style="padding: 20px;" src="/images/400x600.jpg">!-->
+<img align="left" width="240" height="240" style="padding: 10px;" src="/images/outofframe1.jpg">
 
 Hey! Here it's Pier!
 
