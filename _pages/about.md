@@ -4,11 +4,12 @@ subtitle:
 description:
 featured_image:
 ---
-<img align="left" width="240" height="240" style="padding: 10px;" src="/images/outofframe1.jpg">
+<img align="left" width="300" height="300" style="padding: 10px;" src="/images/outofframe1.jpg">
 
 Hey! Here it's Pier!
 
-I'm a freelance designer currently standing on a various range of works, from <b>product design</b> and <b>photography</b> to <b>social innovation program</b>.
+I'm a freelance designer currently standing on a various range of works, from <b>product design</b> and <b>photography</b> to <b>social innovation </b>and <b>educational technology</b>.<br>
+[Here](http://bit.ly/portfolioPV) you can find my portfolio.
 
 I always look for interesting <b>design-based</b> photography works where I can shoot both digital and analog, film, record and draw, working from pre to post-production.
 
