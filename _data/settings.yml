@@ -10,6 +10,8 @@ menu_settings:
   menu_items:
     - title: 'shootings'
       url: '/'
+    - title: 'projects'
+      url: '/blog'
     - title: 'about me'
       url: '/about'
 
