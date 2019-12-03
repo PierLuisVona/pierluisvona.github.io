@@ -8,7 +8,7 @@ featured_image: '/images/grid/shitart.jpg'
 
 ![](/images/shitart/1.jpg)
 
-h.3:00 // fredda ma elettrizzante nottata di novembre // camera con flash modificato // artisti da tutta Italia // poster, scope e secchiate di colla.
+h.3:00 // fredda ma elettrizzante nottata di novembre // [camera con flash modificato](https://pierluisvona.github.io/blog/mark) // artisti da tutta Italia // poster, scope e secchiate di colla.
 
 <div class="gallery" data-columns="2">
 	<img src="/images/shitart/2.jpg">
