@@ -6,6 +6,6 @@ description:
 featured_image: '/images/grid/makrshakr.jpg'
 ---
 
-## portrait series is coming out soon!
+## IS YET TO BE DOCUMENTED 🙌
 
 ![](/images/makrshakr.jpg)
