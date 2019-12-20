@@ -8,13 +8,12 @@ featured_image: '/images/grid/makrshakr.jpg'
 
 ![](/images/makrshakr/pic4.jpg)
 
-This is the [MAKR SHAKR](https://www.makrshakr.com) portraits series,<br>
-I produced while they were looking for their new photo identity.
+This is the [MAKR SHAKR](https://www.makrshakr.com) portraits series, I produced while they were looking for their new website photo identity.
 ## 🍹
 
 ---
 
-## a large group for an ambitious project:
+## This is the large group behind this ambitious project:
 
 <div class="gallery" data-columns="6">
 		<img src="/images/makrshakr/gif/1drink.gif">
@@ -60,9 +59,10 @@ I produced while they were looking for their new photo identity.
 		<img src="/images/makrshakr/gif/38drink.gif">
 </div>
 
+---
+
 <div class="gallery" data-columns="1">
 		<img src="/images/makrshakr/pic1.jpg">
 		<img src="/images/makrshakr/pic3.jpg">
 		<img src="/images/makrshakr/pic2.jpg">
-		<img src="/images/makrshakr/pic5.jpg">
 </div>
