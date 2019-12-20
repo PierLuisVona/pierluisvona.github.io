@@ -12,7 +12,7 @@ menu_settings:
       url: '/'
     - title: 'hacks'
       url: '/blog'
-    - title: 'about me'
+    - title: 'about'
       url: '/about'
 
 footer_settings:
