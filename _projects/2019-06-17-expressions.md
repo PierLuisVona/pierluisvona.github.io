@@ -68,7 +68,7 @@ Hereunder you can look them straight in the eyes.
 # BACKSTAGE
 Shootings were produced during an intense studio day, spent at [Ugo Ricciardi's place](http://www.ugoricciardi.it/art/?keywords=affitto-sala-di-posa-torino) here in Turin, where we choose to bring just some [lift bits](https://www.opendotlab.it/portfolio-item/lift-bit/) as scenography.
 
-I photographed together with [Edoardo](https://www.edoardocucco.it/), using some little lights, a huge limbo and two Canon system:
+I photographed together with [Edoardo](https://www.instagram.com/edoraw/), using some little lights, a huge limbo and two Canon system:
 
 * canon 5d mk II - 24-70mm f2.8
 * canon 5d mk I - 85mm f1.8
