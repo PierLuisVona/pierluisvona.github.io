@@ -1,7 +1,7 @@
 ---
 title: 'Shit Art Fair³'
 subtitle: 'fiera internazionale non autorizzata di arte di merda contemporanea <br> @ Parco del Valentino, Corso Massimo d&#8217Azeglio, TO, Italia'
-date: 2015-11-11 00:00:00
+date: 2018-12-31 00:00:00
 description:
 featured_image: '/images/grid/shitart.jpg'
 ---
