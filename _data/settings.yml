@@ -12,6 +12,8 @@ menu_settings:
       url: '/'
     - title: 'hacks'
       url: '/blog'
+    - title: 'print'
+      url: '/shop'
     - title: 'about'
       url: '/about'
 
