@@ -5,8 +5,7 @@ date: 2019-10-23 00:00:00
 description:
 featured_image: '/images/grid/makrshakr.jpg'
 ---
-
-![](/images/makrshakr/pic4.jpg)
+![](/images/makrshakr.jpg)
 
 [MAKR SHAKR](https://www.makrshakr.com) says:
 
@@ -14,6 +13,8 @@ We are an <b>interdisciplinary</b> team. We love <b>challenges</b>. And we know 
 
 Since the beginning of our work, we knew we were being disruptive. No one ever learned to swim staying in the shallow end… We’ve always welcomed people from different backgrounds, different mindsets and disciplines.
 Yes, we’re a robotics firm, but we also have designers, engineers, and writers. We are passionate about our work and each piece of robotics that comes out of our factory is the perfect encounter of design and technology.
+
+![](/images/makrshakr/pic4.jpg)
 
 ---
 
@@ -50,6 +51,8 @@ Yes, we’re a robotics firm, but we also have designers, engineers, and writers
 		<img src="/images/makrshakr/gif/29drink.gif">
 		<img src="/images/makrshakr/gif/34drink.gif">
 </div>
+
+---
 
 <div class="gallery" data-columns="1">
 		<img src="/images/makrshakr/pic1.jpg">

@@ -9,11 +9,9 @@ header_settings:
 menu_settings:
   menu_items:
     - title: 'shootings'
-      url: '/'
+      url: '/index'
     - title: 'hacks'
       url: '/blog'
-    - title: 'prints'
-      url: '/'
     - title: 'about'
       url: '/about'
 
